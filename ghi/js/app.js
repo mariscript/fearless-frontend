@@ -24,6 +24,7 @@ window.addEventListener("DOMContentLoaded", async () => {
 
     if (response.ok) {
       const data = await response.json();
+      console.log(data);
 
       for (let conference of data.conferences) {
         const detailUrl = `http://localhost:8000${conference.href}`;
