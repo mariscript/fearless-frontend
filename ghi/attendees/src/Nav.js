@@ -1,6 +1,6 @@
 function Nav() {
   return (
-<><nav className="navbar navbar-expand-lg navbar-light bg-light">
+<nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">Conference GO!</a>
           <button
@@ -46,7 +46,7 @@ function Nav() {
             </form>
           </div>
         </div>
-      </nav></>
+      </nav>
   );
 }
 
